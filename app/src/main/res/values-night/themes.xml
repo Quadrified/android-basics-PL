@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FirstApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+        <item name="android:background">#313844</item>
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

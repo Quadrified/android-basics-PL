@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Created by going to res -> New -> Android Resource Directory -> select Resource Type -> "menu"  -->
+
+    <item
+        android:id="@+id/miSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/miAddContact"
+        android:icon="@drawable/ic_add_contact"
+        android:title="Add Contact"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miFavourites"
+        android:icon="@drawable/ic_favourites"
+        android:title="Favourite"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miFeedback"
+        android:title="Give Feedback"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/miClose"
+        android:title="Quit App"
+        app:showAsAction="never" />
+
+</menu>
